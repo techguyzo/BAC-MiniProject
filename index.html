@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#rcorner {
+  border-radius: 25px;
+  
+}
+
+h2 {
+    text-align:center;
+    font-style: italic;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Poems</h2>
+
+<div class="row">
+  <div class="column" style="background-color: red;" id="rcorner">
+    <h2>MARGARET ATWOOD “YOU FIT INTO ME”</h2>
+    <p>you fit into me
+        like a hook into an eye
+        
+        a fish hook
+        an open eye</p>
+    <button onclick="myFunction()">Click me</button>
+  </div>
+  <div class="column" style="background-color:green;" id="rcorner">
+    <h2>ANAIS NIN “RISK”</h2>
+    <p>And then the day came,
+        when the risk
+        to remain tight
+        in a bud
+        was more painful
+        than the risk
+        it took
+        to blossom.</p>
+    <button onclick="myFunction()">Click me</button>
+  </div>
+  <div class="column" style="background-color:blue;" id="rcorner">
+    <h2>HENRY DAVID THOREAU “MY LIFE HAS BEEN THE POEM I WOULD HAVE WRIT”</h2>
+    <p>My life has been the poem I would have writ
+        But I could not both live and utter it.</p>
+    <button onclick="">Click me</button>
+  </div>
+</div>
+
+</body>
+</html>
